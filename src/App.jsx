@@ -77,6 +77,7 @@ function App() {
 
       <main className="container-fluid px-4">
         {heroMovie && (
+          
           <Hero
             title={heroMovie.Title}
             subtitle={`${heroMovie.Year} • ${heroMovie.Type}`}
