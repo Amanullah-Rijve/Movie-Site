@@ -1,0 +1,24 @@
+.hero {
+  height: 420px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: 18px;
+}
+.hero-overlay {
+  background: linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,0.72));
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  padding: 26px;
+  color: white;
+}
+.hero-overlay h1 {
+  font-size: 40px;
+  margin: 0 0 6px 0;
+}
+.hero-overlay p {
+  color: #cfcfcf;
+  margin: 0;
+}

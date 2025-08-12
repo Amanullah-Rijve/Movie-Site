@@ -1,0 +1,34 @@
+:root {
+  --bg: #0f0f10;
+  --muted: #9aa0a6;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  background: var(--bg);
+  color: #e8e8e8;
+}
+
+/* container width */
+main.container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 18px;
+}
+
+/* section title */
+.section-title {
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+/* movie grid */
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 16px;
+  align-items: start;
+}
+
+.loading, .no-results { color: var(--muted); padding: 20px; text-align:center; }
